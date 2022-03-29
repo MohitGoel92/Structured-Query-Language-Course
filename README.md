@@ -10,7 +10,7 @@ I hope you enjoy this course as much I have enjoyed producing and teaching it to
 
 ### Introduction (Downloading PostgreSQL and PgAdmin).
 
-In this section we will cover what SQl is and why it is required. We will learn about SQL, databases, spreadsheets and analyse statistics regarding the importance of SQL and job opportunities. 
+In this section we will cover what SQL is and why it is required. We will learn about SQL, databases, spreadsheets and analyse statistics regarding the importance of SQL and job opportunities. 
 
 Key topics covered include:
 
