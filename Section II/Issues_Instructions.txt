@@ -1,0 +1,37 @@
+This file is for those who have receieved an error message from SQL when either using the new exercise file
+or are unable to restore it.
+
+Pre check:
+
+1. Make sure you are using the latest version of pgAdmin, there are a few versions that were released that contained bugs. 
+   We have confirmed the restore process works on pgadmin 4.22 and please use PostgreSQL 12 (even if you are on an older OS, 
+   Postgresql 12 is likely supported by your OS now)
+
+2. Make sure you selected PRE/POST/DATA to be switched to yes (green) for the Restore Options
+
+3. Make sure you refresh the database
+
+4. Make sure your bin file path is set up correctly, this part is slightly more complex, so to make sure it is set up correctly:
+
+In pgAdmin4 go to: File > Preferences > Paths > Binary paths > PostgreSQL Binary Path
+
+Sample paths as below (You need to change it according to your Postgres location),
+
+If you are using Windows than provide path like: C:\Program Files\PostgreSQL\12\bin
+
+If you are using Linux than provide path like: /opt/PostgreSQL/12/bin
+
+If you are using Mac than provide path where you have installed PG: /Library/PostgreSQL/12/bin
+
+Try a new restore and refresh after those changes and see if that fixes the issue.
+
+Example path of data file stores in file on desktop: C:\Users\mohit\OneDrive\Desktop\SQL\SQL - Course Full\Section II\exercises.tar
+
+Note: Remember to right click the new database name, refresh it and select "Query Tool".
+
+Note: The new database has a public and cd schema. This means that the quieres for the "FROM" tables will now have
+      "cd." in front of them. For example:
+
+      SELECT * FROM cd.bookings;
+      SELECT * FROM cd.facilities;
+      SELECT * FROM cd.members;
