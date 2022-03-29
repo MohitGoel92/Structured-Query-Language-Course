@@ -15,8 +15,8 @@ In this section we will cover what SQl is and why it is required. We will learn 
 Key topics covered include:
 
 - SQL Statement Fundamentals
-- **GROUP BY** Statements
-- **JOINS**
+- GROUP BY Statements
+- JOINS
 - More Complex Queries
 - Creating Databases and Tables
 - Conditional Expressions and Procedures
