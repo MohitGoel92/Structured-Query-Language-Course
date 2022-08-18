@@ -98,6 +98,13 @@ https://www.pgadmin.org/
 - The grouping is based on attributes of work that might include the application function to be used, the priority of execution for the application function, the job class to be managed or the data range used in the application function or job class.
 - An instance of the cloud database operates as a service that handles all application requests to work with the data in any of the databases managed be that instance.
 
+### Introduction to IBM db2 on cloud
+
+- IBM DB2 on cloud is a SQL database provision for you in the cloud.
+- IBM DB2 on cloud is a fully managed public cloud service on IBM cloud.
+- As a relational database, it delivers fast query processing with enterprise-level performance and capabilities for online transactioanl processing (OLTP).
+- It's a database software without the overhead and expensive hardware setup or software installation or maintenance.
+
 ## References
 
 [1](https://medium.com/@cndro/why-sql-is-an-important-skill-for-anyone-to-learn-4119d4e7faa2). Why SQL is an Important Skill For Anyone To Learn.
