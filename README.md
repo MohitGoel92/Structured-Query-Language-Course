@@ -74,7 +74,29 @@ https://www.pgadmin.org/
 
 ### Cloud Database
 
+- A cloud database is a database service built and accessed through a cloud platform.
+- It serves many of the same functions as traditional databases with the edit flexibility of cloud computing.
+- Users install software on a cloud infrastructure to implement the database.
+- The advantages of using cloud databases include:
+  - Easy to use
+  - Scalability
+  - Flexibility solutions
+  - Safe and secure
+  - Disaster recovery
+  - Overall cost
+  - Mobile access
 
+- Examples of cloud SQL databases include:
+  - IBM DB2 on Cloud
+  - Compose [Databases] for PostgreSQL
+  - Oracle Cloud Database Services
+  - Microsoft Azure SQL Database
+  - Amazon Relational Database Service
+
+- Database services are logical abstractions for managing workloads in a database.
+- Each service represents a workload with common attributes, service level thresholds and priorities.
+- The grouping is based on attributes of work that might include the application function to be used, the priority of execution for the application function, the job class to be managed or the data range used in the application function or job class.
+- An instance of the cloud database operates as a service that handles all application requests to work with the data in any of the databases managed be that instance.
 
 ## References
 
