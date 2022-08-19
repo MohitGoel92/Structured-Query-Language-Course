@@ -72,6 +72,20 @@ https://www.postgresql.org/download/
 
 https://www.pgadmin.org/
 
+### Introduction to Data
+
+- Data can be split into 2 categories:
+  - Data Definition Language Statements (DDL).
+    - This is used to:
+    - Define data
+    - Change data
+    - Drop data
+  - Data Manipulation Language Statements (DML).
+    - This is used for:
+    - Reading data
+    - Modifying data
+    - For example, INSERT, SELECT, DELETE ... etc.
+
 ### Cloud Database
 
 - A cloud database is a database service built and accessed through a cloud platform.
@@ -98,12 +112,16 @@ https://www.pgadmin.org/
 - The grouping is based on attributes of work that might include the application function to be used, the priority of execution for the application function, the job class to be managed or the data range used in the application function or job class.
 - An instance of the cloud database operates as a service that handles all application requests to work with the data in any of the databases managed be that instance.
 
+
+
 ### Introduction to IBM db2 on cloud
 
 - IBM DB2 on cloud is a SQL database provision for you in the cloud.
 - IBM DB2 on cloud is a fully managed public cloud service on IBM cloud.
 - As a relational database, it delivers fast query processing with enterprise-level performance and capabilities for online transactioanl processing (OLTP).
 - It's a database software without the overhead and expensive hardware setup or software installation or maintenance.
+
+
 
 ## References
 
